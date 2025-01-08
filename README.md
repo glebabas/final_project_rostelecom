@@ -6,18 +6,21 @@
 ## Установка и запуск
 
 ```bash
-# Клонируем репозиторий
-git clone [url-репозитория]
-cd nft-marketplace
-
 # Устанавливаем зависимости
 yarn install
+
+# Запускаем сеть
+yarn chain
+
+# Деплоим контракт
+yarn deploy
 
 # Запускаем тесты
 yarn hardhat test
 
-# Деплоим контракты
-yarn hardhat deploy --network [название-сети]
+# Запускаем приложение
+yarn start
+
 ```
 
 ## Основные функции
